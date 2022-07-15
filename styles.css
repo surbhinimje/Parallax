@@ -1,16 +1,15 @@
 body,html{
   height: 100%;
   margin: 0;
-  font-size: 16px;
+  font-size: 270%;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  line-height: 1.8em;
+  line-height: 1.8;
   color: #666;
 
 }
 .pimg1, .pimg2, .pimg3{
-  position: relative;;
-
+  position: relative;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,16 +23,16 @@ body,html{
 }
 
 .pimg2{
-  min-height: 400px;
+  min-height: 75%;
   background-image: url('https://images6.alphacoders.com/517/517083.jpg');
 }
 .pimg3{
-  min-height: 400px;
+  min-height: 75%;
   background-image: url('https://images.alphacoders.com/914/9141.jpg');
 }
 .section{
   text-align: center;
-  padding: 50px 80px;
+  padding: 2.5% 5%;
 }
 
 .section-dark{
@@ -50,20 +49,27 @@ body,html{
   width: 100%;
   text-align: center;
   color: #FFFFFF;
-  font-size: 27px;
-  letter-spacing: 8px;
+  font-size: 30%;
+  letter-spacing:0.8em;
   text-transform: uppercase;
 }
 .ptext .border{
   background-color: #111;
   color: #FFFFFF;
-  padding: 20px;
+  padding: 1%;
+
+}
+p {
+  font-size: 25%;
+}
+h2{
+  font-size: 35%;
 
 }
 .ptext .border .trans{
   background-color: transparent;
 }
-@media only screen and (max-device-width: 1366px) {
+@media(max-width:480px) {
   .pimg1, .pimg2, .pimg3{
     background-attachment: scroll;
   }
